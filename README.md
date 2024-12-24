@@ -2,20 +2,20 @@
 This repository contains a comprehensive Anime Recommender System built using Python and various machine learning techniques. The system aims to provide personalized anime recommendations to users based on their viewing history, preferences, and similarities with other users. It uses both Collaborative Filtering and Content-based Filtering approaches to provide accurate and diverse anime recommendations.
 
 ## Key Features
-1. User-based Collaborative Filtering
+1. **User-based Collaborative Filtering**
 Recommends anime to users by finding other users with similar preferences and suggesting shows that those users have rated highly.
 This method assumes that users who liked similar items in the past will continue to like similar items in the future.
-2. Content-based Filtering
+2. **Content-based Filtering**
 Recommends anime based on the characteristics of the anime (genres, themes, styles) that the user has watched and rated highly.
 This approach focuses on the content features of the anime and suggests similar anime shows based on those features.
-3. Hybrid Approach
+3. **Hybrid Approach**
 Combines both User-based Collaborative Filtering and Content-based Filtering for more accurate and diverse recommendations.
 The hybrid approach mitigates the weaknesses of each individual method, providing better overall recommendations.
-4. Data Preprocessing
+4.** Data Preprocessing**
 Handles missing data, performs data normalization, and applies feature scaling techniques.
 Ensures that the dataset is clean and suitable for training machine learning models.
 Deals with missing or incomplete ratings by filling or ignoring them as needed.
-5. Model Evaluation
+5. **Model Evaluation**
 Uses standard evaluation metrics such as Precision, Recall, and F1-score to assess the quality of the recommendations.
 Cross-validation techniques are applied to improve the robustness of the recommendation system.
 
