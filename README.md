@@ -11,7 +11,7 @@ This approach focuses on the content features of the anime and suggests similar 
 3. **Hybrid Approach**
 Combines both User-based Collaborative Filtering and Content-based Filtering for more accurate and diverse recommendations.
 The hybrid approach mitigates the weaknesses of each individual method, providing better overall recommendations.
-4.** Data Preprocessing**
+4.**Data Preprocessing**
 Handles missing data, performs data normalization, and applies feature scaling techniques.
 Ensures that the dataset is clean and suitable for training machine learning models.
 Deals with missing or incomplete ratings by filling or ignoring them as needed.
